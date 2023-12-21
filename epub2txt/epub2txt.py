@@ -27,7 +27,7 @@ from pathlib import Path
 
 # for with_func_attrs
 # from typing import Iterable
-from collections import Iterable  # < py38
+from collections.abc import Iterable  # updated
 
 # the rest
 from itertools import zip_longest
